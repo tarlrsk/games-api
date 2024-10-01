@@ -114,40 +114,6 @@ var games = []Game{
 		},
 	},
 	{
-		Title:       "Minecraft",
-		Genre:       "Sandbox",
-		Image:       "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png",
-		Rating:      9,
-		Description: "A blocky, creative sandbox game with endless possibilities.",
-		Details: Details{
-			Developer:   "Mojang Studios",
-			Publisher:   "Mojang Studios",
-			Platforms:   []string{"PC", "PlayStation", "Xbox", "Nintendo Switch", "Mobile"},
-			ReleaseDate: "2011-11-18",
-			Price: Price{
-				Amount:   26.95,
-				Currency: "USD",
-			},
-		},
-	},
-	{
-		Title:       "Fortnite",
-		Genre:       "Battle Royale",
-		Image:       "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltdaa08bc17301576f/60dc27ce2e95e10f21f3193c/8e3054435647a98c29bd131600e394a887e22841.png",
-		Rating:      8,
-		Description: "A popular battle royale game with building mechanics.",
-		Details: Details{
-			Developer:   "Epic Games",
-			Publisher:   "Epic Games",
-			Platforms:   []string{"PC", "PlayStation", "Xbox", "Nintendo Switch", "Mobile"},
-			ReleaseDate: "2017-07-25",
-			Price: Price{
-				Amount:   0.00,
-				Currency: "USD",
-			},
-		},
-	},
-	{
 		Title:       "Overwatch",
 		Genre:       "First-person shooter",
 		Image:       "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Overwatch_circle_logo.svg/500px-Overwatch_circle_logo.svg.png",
@@ -211,40 +177,6 @@ var games = []Game{
 			ReleaseDate: "2019-03-22",
 			Price: Price{
 				Amount:   59.99,
-				Currency: "USD",
-			},
-		},
-	},
-	{
-		Title:       "Hades",
-		Genre:       "Roguelike dungeon crawler",
-		Image:       "https://upload.wikimedia.org/wikipedia/en/6/67/Hades_cover_art.jpg",
-		Rating:      10,
-		Description: "An action-packed rogue-like where you escape the Underworld.",
-		Details: Details{
-			Developer:   "Supergiant Games",
-			Publisher:   "Supergiant Games",
-			Platforms:   []string{"PC", "Nintendo Switch", "PlayStation", "Xbox"},
-			ReleaseDate: "2020-09-17",
-			Price: Price{
-				Amount:   24.99,
-				Currency: "USD",
-			},
-		},
-	},
-	{
-		Title:       "Celeste",
-		Genre:       "Platform",
-		Image:       "https://upload.wikimedia.org/wikipedia/en/9/9c/Celeste_cover.png",
-		Rating:      10,
-		Description: "A platformer about climbing a mountain and overcoming challenges.",
-		Details: Details{
-			Developer:   "Maddy Makes Games",
-			Publisher:   "Maddy Makes Games",
-			Platforms:   []string{"PC", "PlayStation", "Xbox", "Nintendo Switch"},
-			ReleaseDate: "2018-01-25",
-			Price: Price{
-				Amount:   19.99,
 				Currency: "USD",
 			},
 		},
